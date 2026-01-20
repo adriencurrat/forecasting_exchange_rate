@@ -1,1 +1,1 @@
-# forecasting_exchange_rate
+# Forecasting the Swiss nominal effective exchange rate
