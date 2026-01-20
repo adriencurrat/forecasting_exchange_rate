@@ -27,20 +27,40 @@ To run the project:
 **Purpose:** Ensures that all required R packages are installed and loaded. The script sets the CRAN mirror and installs missing packages automatically.
 
 #### 3.2 Data Treatment.R
-**Purpose:** Handles data cleaning, preprocessing, and interpolation. Raw macroeconomic data are transformed into usable formats for the analysis.
+**Purpose:** Handles data cleaning, preprocessing, and interpolation. Raw macroeconomic data is processed into usable formats for further analysis.
 
 #### 3.3 Data Analysis.R
-**Purpose:** Conducts stationarity testing, seasonal adjustment, and exploratory data analysis. Outputs include summary statistics and graphical representations of key variables.
+**Purpose:** Conducts stationarity testing, adjusts for seasonality, and visualizes key variables. Outputs include graphs and summary statistics of the data.
 
 #### 3.4 Model Estimation.R
-**Purpose:** Estimates Taylor rule and Uncovered Interest Parity (UIP)–based models for exchange rate forecasting. Outputs include estimated coefficients and diagnostic metrics.
+**Purpose:** Estimates the Taylor Rule and Uncovered Interest Rate Parity (UIP) models to forecast exchange rates. Outputs include estimated coefficients and diagnostic metrics.
 
 #### 3.5 Point Forecasting.R
-**Purpose:** Generates point forecasts for NEER changes at multiple horizons (1, 6, 12, and 18 months).
+**Purpose:** Generates point forecasts for NEER (Nominal Effective Exchange Rate) changes across multiple horizons (1, 6, 12, and 18 months).
 
 #### 3.6 Forecast Evaluation.R
-**Purpose:** Evaluates forecast accuracy using standard metrics and compares model performance against a random walk benchmark.
+**Purpose:** Evaluates the accuracy of the forecasts using comparison metrics against a random walk benchmark.
 
 #### 3.7 Density Forecast.R
-**Purpose:** Assesses the quality of density forecasts and prediction intervals. Includes Likelihood Ratio (LR) tests, Probability Integral Transform (PIT) analysis, and autocorrelation tests.
+**Purpose:** Evaluates the quality of prediction intervals and density forecasts. It includes Likelihood Ratio (LR) tests, Probability Integral Transform (PIT) analysis, and autocorrelation testing.
+
+### 3. List of required packages
+
+**Data processing and analysis**
+- `seasonal`: Seasonal adjustment for time-series data.
+- `tseries`: Statistical tests for time-series analysis (e.g. stationarity tests).
+- `tempdisagg`: Temporal disaggregation of quarterly data (e.g. Denton–Cholette method).
+- `forecast`: Time-series forecasting tools, including ARIMA and related methods.
+- `sandwich`: Robust (HAC) covariance matrix estimation for regression models.
+- `strucchange`: Structural change analysis and QLR testing for regression models.
+
+**Data visualization**
+- `ggplot2`: Visualization of time-series trends, distributions, and forecast results.
+
+**Data import / export**
+- `readxl`: Import data from Excel files.
+- `openxlsx`: Export data to Excel files.
+- `writexl`: Write processed data and results to Excel files.
+
+
 
