@@ -1,8 +1,8 @@
 # Forecasting the Swiss nominal effective exchange rate
 
-**Authors:** Isaac Graber, Mathéo Bourgeois, Adrien Currat
+**Authors:** Isaac Graber, Mathéo Bourgeois, Adrien Currat  
 **Institution:** University of Lausanne, Msc. in Economics  
-**Course:** Economic Forecasting for Decision-Making
+**Course:** Economic Forecasting for Decision-Making  
 
 ## Introduction
 This project replicates a real-world forecasting exercise conducted in the context of the Swiss National Bank (SNB). Acting as a macroeconomic forecasting team, we forecasted the evolution of the Swiss nominal effective exchange rate (NEER) of Switzerland up to 2026.
