@@ -1,9 +1,7 @@
 # Forecasting the Swiss nominal effective exchange rate
 
 **Authors:** Isaac Graber, Mathéo Bourgeois, Adrien Currat
-
 **Institution:** University of Lausanne, Msc. in Economics  
-
 **Course:** Economic Forecasting for Decision-Making
 
 ## Introduction
