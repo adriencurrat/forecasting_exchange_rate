@@ -24,35 +24,23 @@ To run the project:
 ### 2. Scripts overview
 
 #### 3.1 Packages Loading.R
-**Purpose:**  
-Ensures that all required R packages are installed and loaded.  
-The script sets the CRAN mirror and installs missing packages automatically.
+**Purpose:** Ensures that all required R packages are installed and loaded. The script sets the CRAN mirror and installs missing packages automatically.
 
 #### 3.2 Data Treatment.R
-**Purpose:**  
-Handles data cleaning, preprocessing, and interpolation.  
-Raw macroeconomic data are transformed into usable formats for the analysis.
+**Purpose:** Handles data cleaning, preprocessing, and interpolation. Raw macroeconomic data are transformed into usable formats for the analysis.
 
 #### 3.3 Data Analysis.R
-**Purpose:**  
-Conducts stationarity testing, seasonal adjustment, and exploratory data analysis.  
-Outputs include summary statistics and graphical representations of key variables.
+**Purpose:** Conducts stationarity testing, seasonal adjustment, and exploratory data analysis. Outputs include summary statistics and graphical representations of key variables.
 
 #### 3.4 Model Estimation.R
-**Purpose:**  
-Estimates Taylor rule and Uncovered Interest Parity (UIP)–based models for exchange rate forecasting.  
-Outputs include estimated coefficients and diagnostic metrics.
+**Purpose:** Estimates Taylor rule and Uncovered Interest Parity (UIP)–based models for exchange rate forecasting. Outputs include estimated coefficients and diagnostic metrics.
 
 #### 3.5 Point Forecasting.R
-**Purpose:**  
-Generates point forecasts for NEER changes at multiple horizons (1, 6, 12, and 18 months).
+**Purpose:** Generates point forecasts for NEER changes at multiple horizons (1, 6, 12, and 18 months).
 
 #### 3.6 Forecast Evaluation.R
-**Purpose:**  
-Evaluates forecast accuracy using standard metrics and compares model performance against a random walk benchmark.
+**Purpose:** Evaluates forecast accuracy using standard metrics and compares model performance against a random walk benchmark.
 
 #### 3.7 Density Forecast.R
-**Purpose:**  
-Assesses the quality of density forecasts and prediction intervals.  
-Includes Likelihood Ratio (LR) tests, Probability Integral Transform (PIT) analysis, and autocorrelation tests.
+**Purpose:** Assesses the quality of density forecasts and prediction intervals. Includes Likelihood Ratio (LR) tests, Probability Integral Transform (PIT) analysis, and autocorrelation tests.
 
