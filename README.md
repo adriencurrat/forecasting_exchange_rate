@@ -9,7 +9,7 @@ This project replicates a real-world forecasting exercise conducted in the conte
 
 Using a theoretical framework based on the Taylor rule and the uncovered interest parity (UIP) condition, we assessed the impact of inflation and output gap differentials on bilateral exchange rates with major trading partners (US, EU, China, and UK), weighted by trade importance. The results showed that the model delivered accurate forecasts and outperformed a random walk.
 
-This project received the maximum grade in the course. The work was also highlighted by Professor Grobéty in a public [LinkedIn post]([https://www.linkedin.com/in/your-linkedin-username/](https://www.linkedin.com/feed/update/urn:li:activity:7275406513182060545/)), acknowledging the quality of the analysis and the results.
+This project received the maximum grade in the course. The work was also highlighted by Professor Grobéty in a public [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7275406513182060545/), acknowledging the quality of the analysis and the results.
 
 ## Technical overview
 Explain what are in the code (refer to the different code I sent you and document instruction, also technical report).
